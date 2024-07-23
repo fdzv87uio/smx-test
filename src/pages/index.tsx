@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen relative flex flex-col gap-[20px] justify-center items-center">
       {alertOpen && (
-        <div className="absolute w-full h-auto top-[40px] left-[38%]">
+        <div className="absolute w-full h-auto top-[40px] left-[37.5%]">
           <CustomAlert message={message} setAlertOpen={setAlertOpen} />
         </div>
       )}
